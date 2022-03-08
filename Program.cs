@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using WebApplication4.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+//con esto de jamos la framework que cree las instancias del contexto y que solo lo inyecte en los controladores
+builder.Services.AddDbContext<StarwarsDb>(options => options.UseInMemoryDatabase("Starwars"));
 
 var app = builder.Build();
 
