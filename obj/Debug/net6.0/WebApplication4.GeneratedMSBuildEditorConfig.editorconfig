@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Cristhian\source\repos\WebApplication4
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/Users/Cristhian/source/repos/WebApplication4/Views/Clientes/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Cristhian/source/repos/WebApplication4/Views/Clientes/Listado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTGlzdGFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/Cristhian/source/repos/WebApplication4/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -25,10 +33,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [c:/Users/Cristhian/source/repos/WebApplication4/Views/Personajes/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWplc1xFZGl0YXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/Cristhian/source/repos/WebApplication4/Views/Personajes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWplc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/Cristhian/source/repos/WebApplication4/Views/Personajes/Listado.cshtml]

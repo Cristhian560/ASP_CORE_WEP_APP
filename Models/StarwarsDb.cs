@@ -7,6 +7,7 @@ namespace WebApplication4.Models
     public class StarwarsDb : DbContext
     {
         public DbSet<Personaje> Personajes { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
         public StarwarsDb()
         {
 
@@ -15,9 +16,11 @@ namespace WebApplication4.Models
         {
 
         }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
-        {
-            optionBuilder.UseInMemoryDatabase("Starwars");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
+        //{
+        //    //options.UseSqlServer(builder.Configuration.GetConnectionString("SwContext"));
+        //    optionBuilder.UseSqlServer("SwContext");
+        //    //optionBuilder.UseInMemoryDatabase("Starwars");
+        //}
     }
 }

@@ -6,9 +6,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//con esto dejamos la framework que cree las instancias del contexto y que solo lo inyecte en los controladores
+//PARA QUE USE EL SQL EN MEMORIA
+//builder.Services.AddDbContext<StarwarsDb>(options => options.UseInMemoryDatabase("SwContext"));
 
-//con esto de jamos la framework que cree las instancias del contexto y que solo lo inyecte en los controladores
-builder.Services.AddDbContext<StarwarsDb>(options => options.UseInMemoryDatabase("Starwars"));
+
+//BUSCA LA CADENA DE CONECCION EN EL APPSETTINGS
+builder.Services.AddDbContext<StarwarsDb>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("SwContext")));
 
 var app = builder.Build();
 
